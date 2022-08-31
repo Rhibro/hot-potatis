@@ -1,5 +1,9 @@
 body {
-    background-color: lightgreen ;
+    background-image: url(../images/map3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 h1 {
     color: brown ;
@@ -12,8 +16,12 @@ img {
     border-width: 5px;
     border-style: solid;
     border-color: darkgrey;
-    /* border-radius: 10%;*/
+    border-radius: 20%;
     box-shadow: 10px 10px 20px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 botton:hover {
     background-color: lightgreen;
