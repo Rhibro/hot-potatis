@@ -1,0 +1,23 @@
+body {
+    background-color: lightgreen ;
+}
+h1 {
+    color: brown ;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: beige;
+    text-align: center;
+}
+img {
+    border-width: 5px;
+    border-style: solid;
+    border-color: darkgrey;
+    /* border-radius: 10%;*/
+    box-shadow: 10px 10px 20px black;
+}
+botton:hover {
+    background-color: lightgreen;
+    border-radius: 50%;
+    color: blue;
+    border-width: 2px ;
+}
