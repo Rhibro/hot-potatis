@@ -27,3 +27,18 @@ img {
     margin-left: 20px;
     margin-right: 20px;
 }
+.left {
+  display: block;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.center {
+  display: block;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.right {
+  display: block;
+  margin-right: 50px;
+  margin-left: 50px;
+}
