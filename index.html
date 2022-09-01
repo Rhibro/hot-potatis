@@ -18,14 +18,22 @@
         background-color: beige;
         text-align: center;
     }
+    .hide{
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: white;
+}
    
 </style>
 </head>
 <body>
      <div class="sticky">My Travels</div>
 
-     <img src="images/to.jpg" alt="picture of toronto" 
-         width="350"> 
+     <div class="myDiv"></div><img src="images/to.jpg" alt="picture of toronto" 
+         width="350"> <div class="hide">View of Toronto from the AGO</div>
      <img src="images/cop.jpg" alt="picture of copenhagen" 
          width="250"> 
      <img src="images/af1.jpg" alt="picture of a water buffalo" 
@@ -46,6 +54,7 @@
          width="250">
      <img src="images/af9.jpg" alt="picture of a giraffe" 
          width="320">
-
+     <img src="images/arrow.jpg" alt="pcture of an arrow pointing up"
+         width="100px">
     </body>
 </html>
